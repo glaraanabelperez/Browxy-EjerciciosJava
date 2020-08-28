@@ -1,0 +1,105 @@
+Examen Simulacro IFTS-16-DL2020 - Tema 1
+
+Completar las funciones para cada punto de manera que cada función cumpla con lo pedido. En algunos de los casos las 
+funciones se encuentran parcialmente implementadas.
+
+* Notas
+ * Corré el test una vez para ver cual debe ser la salida esperada.
+ * La salida debe ser exactamente igual a lo que espera el test.
+ * Por simplicidad y para evitar posibles errores por ahora no usar acentos ni la letra ñ
+ 
+
+1) static void punto1() { }
+
+    Una empresa tiene empleados asignados a dos proyectos (llamados A y B). La empresa desea saber cuántos empleados están
+    asignados a cada proyecto y cual es el promedio de sueldo para cada proyecto. De cada empleado se conoce el proyecto
+    al que esta asignado y su sueldo mensual. Ninguno puede estar asignado a más de un proyecto a la vez y la empresa desconoce
+    el número de empleados
+
+    ** Ejemplo de salida del programa **
+    
+    Examen DL2020 - Ingrese el punto a probar (1 a 4)
+    1
+    Ingresar proyecto: A o B
+    A
+    Ingresar sueldo mensual:
+    5000
+    Desea ingresar otro empleado? S o N
+    S
+    Ingresar proyecto: A o B
+    B
+    Ingresar sueldo mensual:
+    6000
+    Desea ingresar otro empleado? S o N
+    N
+    Resultado:
+    Cantidad empleados proyectos tipo A: 1
+    Promedio sueldos proyectos tipo A: 5000.0
+    Cantidad empleados proyectos tipo B: 2
+    Promedio sueldos proyectos tipo B: 6000.0
+
+
+2) static void punto2() { }
+
+    Un vendedor de ropa tiene todos sus productos desordenados y conoce sus cantidades. De cada prenda conoce
+    su marca (A ó B) y su color (clara ó oscura). Desea saber el total de cada combinación de marca y color, el total de
+    ropa clara y el total de ropa oscura. El sistema debe preguntarle al vendedor la cantidad de productos al iniciar el
+    programa y luego por cada producto la marca y el color. Se supone que el que ingresa los datos no se equivoca.
+    
+    ** Ejemplo de salida del programa **
+
+    Examen DL2020 - Ingrese el punto a probar (1 a 4)
+    Ingresar cantidad de productos
+    Producto: 1
+    Ingresar marca (A o B)
+    A
+    Ingresar color (C o O)
+    C
+    Producto: 2
+    Ingresar marca (A o B)
+    B
+    Ingresar color (C o O)
+    C
+    Resultado:
+    A - clara: 1
+    A - oscura: 0
+    B - clara: 1"
+    B - oscura: 0
+    clara: 2
+    oscura: 0"
+
+
+3) static void punto3() { }
+
+    Un matematico necesita un programa que dado un número imprima los numeros que sean divisibles por 
+    3 y 5 hasta llegar a dicho número
+    
+    ** Ejemplo de salida del programa **
+    
+    Examen DL2020 - Ingrese el punto a probar (1 a 4)
+    3
+    Ingresar el numero maximo
+    10
+    Resultado:
+    3
+    5
+    6
+    9
+    10
+4) static void punto4() { }
+    
+    Se pide hacer un programa en el cual el usuario ingrese números separados por coma y el sistema imprima la suma de 
+    los numeros. 
+    
+    ** Ejemplo de salida del programa **
+    
+    Examen DL2020 - Ingrese el punto a probar (1 a 4)
+    4
+    Ingresar numeros separados por coma
+    2,4,6
+    
+    Resultado: 12
+    
+
+ 
+ 

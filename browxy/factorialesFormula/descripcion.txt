@@ -1,0 +1,19 @@
+Ejercicio 16: El factorial
+
+* Un profesor necesita un programa para calcular el factorial de un numero
+* El factorial de un número se obtiene multiplicando todos los numeros consecutivos hasta el número que queremos
+* Por ejemplo el factorial de 5 es : 5 * 4 * 3 * 2 * 1 = 120
+* Tené en cuenta que el factorial de 0 es 1
+* El programa debe poder calcular sin problemas el factorial de 40
+
+Ejemplo de la salida del programa para 4
+
+Bienvenido al programa para calcular factoriales
+Ingresa el numero a calcular:
+4
+El factorial de 4 es: 24
+
+* Notas
+ * Corré el test una vez para ver cual debe ser la salida esperada.
+ * La salida debe ser exactamente igual a lo que espera el test.
+ * Por simplicidad y para evitar posibles errores por ahora no usar acentos ni la letra ñ

@@ -1,0 +1,62 @@
+{
+    "slug": "/home/browxy/cs50_testcases",
+    "results": [
+        {
+            "name": "factorial_de_4",
+            "description": "factorial_de_4",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 4...",
+                "checking for output \"Bienvenido al programa para calcular factoriales\\nIngresa el numero a calcular:\\nEl factorial de 4 es: 24\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "factorial_de_0",
+            "description": "factorial_de_0",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 0...",
+                "checking for output \"Bienvenido al programa para calcular factoriales\\nIngresa el numero a calcular:\\nEl factorial de 0 es: 1\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "factorial_de_8",
+            "description": "factorial_de_8",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 8...",
+                "checking for output \"Bienvenido al programa para calcular factoriales\\nIngresa el numero a calcular:\\nEl factorial de 8 es: 40320\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "factorial_de_40",
+            "description": "factorial_de_40",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 40...",
+                "checking for output \"Bienvenido al programa para calcular factoriales\\nIngresa el numero a calcular:\\nEl factorial de 40 es: 8.159152832478977E47\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        }
+    ],
+    "version": "3.0.10"
+}

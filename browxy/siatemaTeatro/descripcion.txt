@@ -1,0 +1,48 @@
+Ejercicio 26: El teatro
+
+* Un teatro nos pide terminar de hacer un sistema para administrar sus asientos
+* El teatro tiene 3 filas de 5 asientos por cada fila
+* Las filas están numeradas de la 0 a la 2
+* Los asientos de cada fila están numerados del asiento 0 al 4
+
+* El sistema debe permitir realizar 3 operaciones
+
+1) Listar lugares: Esta operación debe imprimir las filas y los asientos y marcar con una rayita "-" los libres
+   y con una "X" los ocupados. Ejemplo si estuviera ocupado el asiento de la fila y columna 0 debería imprimir:
+  0 1 2 3 4 
+0 X - - - - 
+1 - - - - -    
+2 - - - - - 
+
+Nota para el test:
+Para dibujar el tablero tene en cuenta que hay un espacio extra al final de cada fila (te marco los espacios con numerales)
+  0 1 2 3 4 
+0 X - - - -# 
+1 - - - - -#    
+2 - - - - -# 
+
+2) Comprar lugar: Esta operación le debe pedir al usuario la fila y la columna
+   * Si el asiento estaba libre el sistema debe escribir: "compra realizada" y marcar como ocupado el asiento con una "X"
+   * Si el asiento estaba ocupado el sistema debe escribir: "lugar ocupado"
+
+3) Calcular ganancia: Esta operación debe calcular la ganancia que se obtuvo hasta el momento por los lugares ocupados
+   * Los asientos de la fila 0 pagan 50 pesos
+   * Los asientos de la fila 1 pagan 30 pesos
+   * Los asientos de la fila 2 pagan 10 pesos
+   Por ejemplo si estuvieran comprados 
+    - 2 asientos de la fila 0
+    - 1 asiento de la fila 1
+    - 2 asientos de la fila 2
+   El sistema debería imprimir al usar esta operación: "La ganancia actual es de: 150 pesos"
+   
+
+Para simplificar la resolución ya esta implementado el programa principal, lo que se debe hacer es completar las funciones:
+* listarLugares
+* comprarLugar
+* calcularGanancia
+
+    
+* Notas
+ * Corré el test una vez para ver cual debe ser la salida esperada.
+ * La salida debe ser exactamente igual a lo que espera el test.
+ * Por simplicidad y para evitar posibles errores por ahora no usar acentos ni la letra ñ

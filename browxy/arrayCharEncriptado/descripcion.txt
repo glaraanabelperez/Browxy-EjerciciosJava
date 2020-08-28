@@ -1,0 +1,42 @@
+Ejercicio 23: Encriptador / Desencriptador
+
+* Descripción del ejercicio
+
+* Un espía ruso necesita pasarse mensajes encriptados con otro espía en China.
+* Para ello necesita un programa en el que:
+  * Pueda ingresar el tipo de operacion 1) encriptar 2) desencriptar
+  * Un numero que indicará cuantas letras se corre cada letra en el abecedario
+  * La frase a encriptar o desencriptar
+  
+Ejemplo:
+ a) Si quiero encriptar la palabra "casa" y elijo un corrimiento de 2 entonces la palabra encriptada resultante sera:
+    ecuc (se corre ascendente cada letra 2 unidades)
+ b) Si quiere desencriptar la palabra "ecuc" y elijo un corrimiento de 2 entonces la palabra desencriptada resultante sera:
+    casa (se corre descendente cada letra 2 unidades)
+
+* Ejemplo de salida del ejercicio
+
+** Caso para encriptación **
+
+Bienvenido al encriptador / desencriptador
+Ingrese la operacion que desea realizar 1) Encriptar / 2) Desencriptar
+1
+Ingrese el corrimiento
+2
+Ingrese el texto
+casa
+El resultado es:
+ecuc
+
+** Caso para desencriptación **
+
+Bienvenido al encriptador / desencriptador
+Ingrese la operacion que desea realizar 1) Encriptar / 2) Desencriptar
+2
+Ingrese el corrimiento
+2
+Ingrese el texto
+ecuc
+El resultado es:
+casa
+

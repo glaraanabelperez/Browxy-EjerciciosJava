@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ahorcado/source"/>
+	<classpathentry kind="src" path="arrayCharEncriptado/ArrayCharEncriptado"/>
+	<classpathentry kind="src" path="binarios/source"/>
+	<classpathentry kind="src" path="buscadorTexto/source"/>
+	<classpathentry kind="src" path="CharBuscadorLetras/source"/>
+	<classpathentry kind="src" path="codilityArray/source"/>
+	<classpathentry kind="src" path="contador/source"/>
+	<classpathentry kind="src" path="EscFutbolPorcentaje/EscuelaFutbolPorcentaje"/>
+	<classpathentry kind="src" path="examen/Examen"/>
+	<classpathentry kind="src" path="examenUtlimo/source"/>
+	<classpathentry kind="src" path="factorialesFormula/source"/>
+	<classpathentry kind="src" path="fibonacci/source"/>
+	<classpathentry kind="src" path="infectadosContador/source"/>
+	<classpathentry kind="src" path="maxCounters/source"/>
+	<classpathentry kind="src" path="missing/source"/>
+	<classpathentry kind="src" path="missing2/source"/>
+	<classpathentry kind="src" path="no_emparejado/source"/>
+	<classpathentry kind="src" path="noEmparejado2/source"/>
+	<classpathentry kind="src" path="numerosPrimos2/source"/>
+	<classpathentry kind="src" path="NumPrimosFormulaMathPow/source"/>
+	<classpathentry kind="src" path="NumRomannos-vector/source"/>
+	<classpathentry kind="src" path="ParseShortConversiones/source"/>
+	<classpathentry kind="src" path="permCheck/source"/>
+	<classpathentry kind="src" path="salto/source"/>
+	<classpathentry kind="src" path="siatemaTeatro/source"/>
+	<classpathentry kind="src" path="TapeEquilibrio/source"/>
+	<classpathentry kind="src" path="tatetiFunciones/source"/>
+	<classpathentry kind="src" path="tatetiMatriz/source"/>
+	<classpathentry kind="output" path="CharBuscadorLetras/target"/>
+</classpath>

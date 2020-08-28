@@ -1,0 +1,29 @@
+check50:
+  checks:
+    prueba_1:
+      - run: ${runCommand}
+        stdout: 
+          - "Ingresar primer numero:"
+          - "Ingresar ultimo numero:"
+          - "Numeros primos entre 5 y 13"
+          - "5"
+          - "7"
+          - "11"
+          - "13"
+        stdin:
+          - "5"
+          - "13"
+        exit: 0
+    prueba_2:
+      - run: ${runCommand}
+        stdout: 
+          - "Ingresar primer numero:"
+          - "Ingresar ultimo numero:"
+          - "Numeros primos entre 20 y 30"
+          - "23"
+          - "29"
+        stdin:
+          - "20"
+          - "30"
+        exit: 0        
+        

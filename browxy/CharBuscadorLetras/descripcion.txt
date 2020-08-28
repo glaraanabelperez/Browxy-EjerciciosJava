@@ -1,0 +1,24 @@
+Ejercicio 20: El Buscador de letras
+
+* Descripción del problema
+
+Un profesor en preparación para que los alumnos puedan programar el juego del ahorcado necesita un programa que
+le pida al usuario una palabra y una letra y el programa informe en que posiciones se encontro dicha letra en la palabra.
+
+
+* Ejemplo de la salida del programa
+
+Bienvenido al buscador de letras
+Ingresar palabra:
+interesante
+Ingresar letra:
+e
+Se encontro la letra: e en la posicion: 3
+Se encontro la letra: e en la posicion: 5
+Se encontro la letra: e en la posicion: 10
+
+
+* Notas
+ * Corré el test una vez para ver cual debe ser la salida esperada.
+ * La salida debe ser exactamente igual a lo que espera el test.
+ * Por simplicidad y para evitar posibles errores por ahora no usar acentos ni la letra ñ

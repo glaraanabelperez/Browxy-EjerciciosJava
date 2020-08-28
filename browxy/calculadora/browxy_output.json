@@ -1,0 +1,62 @@
+{
+    "slug": "/home/browxy/cs50_testcases",
+    "results": [
+        {
+            "name": "suma",
+            "description": "suma",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 5\\nsuma\\n23...",
+                "checking for output \"Bienvenido a la super calculadora\\nIngresar el primer numero\\nIngresar la operacion: suma, resta, multiplicacion o division\\nIngresar el segundo numero\\nEl resultado de sumar los numeros 5.0 y 23.0 es 28.0\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "resta",
+            "description": "resta",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 10\\nresta\\n8...",
+                "checking for output \"Bienvenido a la super calculadora\\nIngresar el primer numero\\nIngresar la operacion: suma, resta, multiplicacion o division\\nIngresar el segundo numero\\nEl resultado de restar los numeros 10.0 y 8.0 es 2.0\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "multiplicacion",
+            "description": "multiplicacion",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 5\\nmultiplicacion\\n3...",
+                "checking for output \"Bienvenido a la super calculadora\\nIngresar el primer numero\\nIngresar la operacion: suma, resta, multiplicacion o division\\nIngresar el segundo numero\\nEl resultado de multiplicar los numeros 5.0 y 3.0 es 15.0\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "division",
+            "description": "division",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 3\\ndivision\\n2...",
+                "checking for output \"Bienvenido a la super calculadora\\nIngresar el primer numero\\nIngresar la operacion: suma, resta, multiplicacion o division\\nIngresar el segundo numero\\nEl resultado de dividir los numeros 3.0 y 2.0 es 1.5\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        }
+    ],
+    "version": "3.0.10"
+}

@@ -1,0 +1,38 @@
+check50:
+  checks:
+    factorial_de_4:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido al programa para calcular factoriales"
+          - "Ingresa el numero a calcular:"
+          - "El factorial de 4 es: 24"
+        stdin:
+          - "4"
+        exit: 0
+    factorial_de_0:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido al programa para calcular factoriales"
+          - "Ingresa el numero a calcular:"
+          - "El factorial de 0 es: 1"
+        stdin:
+          - "0"
+        exit: 0
+    factorial_de_8:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido al programa para calcular factoriales"
+          - "Ingresa el numero a calcular:"
+          - "El factorial de 8 es: 40320"
+        stdin:
+          - "8"
+        exit: 0
+    factorial_de_40:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido al programa para calcular factoriales"
+          - "Ingresa el numero a calcular:"
+          - "El factorial de 40 es: 8.159152832478977E47"
+        stdin:
+          - "40"
+        exit: 0          

@@ -1,0 +1,85 @@
+Ejercicio 19: El Virus
+
+El gobierno necesita un sistema para obtener datos de los infectados de un virus.
+Para ello en los subtes va a comenzar a hacer pruebas al azar a las personas.
+El sistema debe preguntar el nombre, la edad y el sexo y si la persona está o no infectada
+Luego al finalizar el sistema debe mostrar:
+a) La cantidad total de personas que hicieron el test
+b) El promedio total de personas infectadas
+c) El promedio de hombres infectados
+d) El promedio de mujeres infectadas
+e) El promedio de personas mayores de 60 años infectadas
+f) El promedio de hombres mayores de 60 años infectados
+
+Por simplicidad no es necesario realizar validaciones, suponemos que el que ingresa los datos los ingresa correctamente
+
+Ayudas:
+a) Recetas de promedio, repetir y preguntar y contabilizar en momentos determinados
+
+Ejemplo de la salida del programa para la siguiente tabla
+
+Nombre   Sexo   Edad   Infectado
+Maria    F      25     S
+Pedro    M      20     N
+Jose     M      65     S
+Manuel   M      70     N
+Rafael   M      18     N
+
+
+Estadisticas Diarias:
+Ingresar nombre:
+Maria
+Ingresar sexo (M o F)
+F
+Ingresar edad:
+25
+Infectado? (S o N)
+S
+Agregar otra persona? (S o N)
+S
+Ingresar nombre:
+Pedro
+Ingresar sexo (M o F)
+M
+Ingresar edad:
+20
+Infectado? (S o N)
+N
+Agregar otra persona? (S o N)
+S
+Ingresar nombre:
+Jose
+Ingresar sexo (M o F)
+M
+Ingresar edad:
+65
+Infectado? (S o N)
+S
+Agregar otra persona? (S o N)
+S
+Ingresar nombre:
+Manuel
+Ingresar sexo (M o F)
+M
+Ingresar edad:
+70
+Infectado? (S o N)
+N
+Agregar otra persona? (S o N)
+S
+Ingresar nombre:
+Rafael
+Ingresar sexo (M o F)
+M
+Ingresar edad:
+18
+Infectado? (S o N)
+N
+Agregar otra persona? (S o N)
+N
+Cantidad total de personas que hicieron el test: 5
+Cantidad total de personas infectadas: 2
+Promedio de hombres infectados: 25.0 %
+Promedio de mujeres infectadas: 100.0 %
+Promedio de mayores de 60 infectados: 50.0 %
+Promedio de hombres mayores de 60 infectados: 50.0 %

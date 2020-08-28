@@ -1,0 +1,12 @@
+Ejercicio 9: La escuela de fútbol
+
+* Una escuela de fútbol necesita un sistema donde se pueda ingresar la cantidad de inscriptos y la cantidad de jugadores que habrá en cada equipo. 
+* Con estos datos el sistema debe indicar cuantos equipos se formaron y si queda algún equipo incompleto el sistema debe
+  indicarlo por separado informando la cantidad de personas que no forman un equipo.
+    * Ejemplo 1: Si son 14 jugadores y los equipos son de 5 el sistema debe indicar que se pudieron formar 2 equipos y quedaron 4 personas sin equipo.
+    * Ejemplo 2: Si son 15 jugadores y los equipos son de 5 el sistema debe indicar unicamente que se formaron 3 equipos.
+
+* Notas
+ * Corré el test una vez para ver cual debe ser la salida esperada.
+ * La salida debe ser exactamente igual a lo que espera el test.
+ * Por simplicidad y para evitar posibles errores por ahora no usar acentos ni la letra ñ

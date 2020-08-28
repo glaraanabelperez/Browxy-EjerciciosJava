@@ -1,0 +1,95 @@
+Ejercicio 21: El ta-te-ti (Versión 1)
+
+* Descripción del problema
+
+Nos encontramos en el año 1979 y no hay juegos. Un amigo nos pide si le podemos hacer un juego 
+para que juguemos al tateti
+en la computadora.
+El juego debe ir pidiendole a cada jugador que ingrese la fila y la columna donde quiere jugar y 
+debe finalizar cuando 
+el tablero esta completo o dicho de otra forma cuando se hicieron nueve jugadas correctas
+Siempre el primer jugador juega con la "X" y el segundo con las "O" (o mayúscula).
+En el caso de que el jugador seleccione una casilla ocupada el sistema debe indicarlo con este mensaje
+"La posicion ya se encuentra ocupada!"
+
+Nota para el test:
+Para dibujar el tablero tene en cuenta que hay un espacio extra al final de cada fila (te marco los espacios con numerales)
+X - -# 
+- - -# 
+- - -#
+
+* Ejemplo de salida del juego
+
+Bienvenidos al tateti (Version 1)
+Jugador 1, ingresar fila de la jugada
+0
+Jugador 1, ingresar columna de la jugada
+0
+X - - 
+- - - 
+- - - 
+Jugador 2, ingresar fila de la jugada
+0
+Jugador 2, ingresar columna de la jugada
+2
+X - O 
+- - - 
+- - - 
+Jugador 1, ingresar fila de la jugada
+0
+Jugador 1, ingresar columna de la jugada
+1
+X X O 
+- - - 
+- - - 
+Jugador 2, ingresar fila de la jugada
+1
+Jugador 2, ingresar columna de la jugada
+0
+X X O 
+O - - 
+- - - 
+Jugador 1, ingresar fila de la jugada
+1
+Jugador 1, ingresar columna de la jugada
+2
+X X O 
+O - X 
+- - - 
+Jugador 2, ingresar fila de la jugada
+1
+Jugador 2, ingresar columna de la jugada
+1
+X X O 
+O O X 
+- - - 
+Jugador 1, ingresar fila de la jugada
+2
+Jugador 1, ingresar columna de la jugada
+0
+X X O 
+O O X 
+X - - 
+Jugador 2, ingresar fila de la jugada
+2
+Jugador 2, ingresar columna de la jugada
+2
+X X O 
+O O X 
+X - O 
+Jugador 1, ingresar fila de la jugada
+2
+Jugador 1, ingresar columna de la jugada
+2
+La posicion ya se encuentra ocupada!
+X X O 
+O O X 
+X - O 
+Jugador 1, ingresar fila de la jugada
+2
+Jugador 1, ingresar columna de la jugada
+1
+X X O 
+O O X 
+X X O 
+Fin del juego

@@ -1,0 +1,27 @@
+check50:
+  checks:
+    prueba_interesante:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido al buscador de letras"
+          - "Ingresar palabra:"
+          - "Ingresar letra:"
+          - "Se encontro la letra: e en la posicion: 3"
+          - "Se encontro la letra: e en la posicion: 5"
+          - "Se encontro la letra: e en la posicion: 10"
+        stdin:
+          - "interesante"
+          - "e"
+        exit: 0
+    prueba_aventura:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido al buscador de letras"
+          - "Ingresar palabra:"
+          - "Ingresar letra:"
+          - "Se encontro la letra: u en la posicion: 5"
+        stdin:
+          - "aventura"
+          - "u"
+        exit: 0        
+

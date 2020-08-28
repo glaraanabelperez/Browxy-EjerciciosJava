@@ -1,0 +1,38 @@
+check50:
+  checks:
+    test1:
+      - run: ${runCommand}
+        stdout: 
+          - "Conversor de numeros arabigos en romanos"
+          - "Ingresa un numero de 1 a 10"
+          - "I"
+        stdin:
+          - 1
+        exit: 0
+    test2:
+      - run: ${runCommand}
+        stdout: 
+          - "Conversor de numeros arabigos en romanos"
+          - "Ingresa un numero de 1 a 10"
+          - "V"
+        stdin:
+          - 5
+        exit: 0
+    test3:
+      - run: ${runCommand}
+        stdout: 
+          - "Conversor de numeros arabigos en romanos"
+          - "Ingresa un numero de 1 a 10"
+          - "VII"
+        stdin:
+          - 7
+        exit: 0         
+    test3:
+      - run: ${runCommand}
+        stdout: 
+          - "Conversor de numeros arabigos en romanos"
+          - "Ingresa un numero de 1 a 10"
+          - "El numero no se encuentra entre el 1 y 10"
+        stdin:
+          - 14
+        exit: 0                 

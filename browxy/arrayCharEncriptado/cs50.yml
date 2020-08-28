@@ -1,0 +1,32 @@
+check50:
+  checks:
+    encriptacion:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido al encriptador / desencriptador"
+          - "Ingrese la operacion que desea realizar 1) Encriptar / 2) Desencriptar"
+          - "Ingrese el corrimiento"
+          - "Ingrese el texto"
+          - "El resultado es:"
+          - "Hq#GO05353#kdfhprv#surjudpdv#lqwhuhvdqwhv"
+        stdin:
+          - "1"
+          - "3"
+          - "En DL-2020 hacemos programas interesantes"
+        exit: 0
+    desencriptacion:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido al encriptador / desencriptador"
+          - "Ingrese la operacion que desea realizar 1) Encriptar / 2) Desencriptar"
+          - "Ingrese el corrimiento"
+          - "Ingrese el texto"
+          - "El resultado es:"
+          - "En DL-2020 hacemos programas interesantes"
+        stdin:
+          - "2"
+          - "3"
+          - "Hq#GO05353#kdfhprv#surjudpdv#lqwhuhvdqwhv"
+        exit: 0        
+      
+        

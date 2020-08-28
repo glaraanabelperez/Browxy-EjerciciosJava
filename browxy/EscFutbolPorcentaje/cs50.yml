@@ -1,0 +1,26 @@
+check50:
+  checks:
+    test1:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido a la escuela de futbol"
+          - "Ingresa la cantidad de jugadores"
+          - "Ingresa la cantidad de jugadores por equipo"
+          - "Se formaron: 4 equipos"
+        stdin:
+          - 20
+          - 5
+        exit: 0
+    test2:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido a la escuela de futbol"
+          - "Ingresa la cantidad de jugadores"
+          - "Ingresa la cantidad de jugadores por equipo"
+          - "Se formaron: 4 equipos"
+          - "Hay 3 jugadores sin equipo"
+        stdin:
+          - 23
+          - 5
+        exit: 0
+       

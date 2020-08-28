@@ -1,0 +1,34 @@
+{
+    "slug": "/home/browxy/cs50_testcases",
+    "results": [
+        {
+            "name": "prueba_1",
+            "description": "prueba_1",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 5\\n13...",
+                "checking for output \"Ingresar primer numero:\\nIngresar ultimo numero:\\nNumeros primos entre 5 y 13\\n5\\n7\\n11\\n13\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "prueba_2",
+            "description": "prueba_2",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 20\\n30...",
+                "checking for output \"Ingresar primer numero:\\nIngresar ultimo numero:\\nNumeros primos entre 20 y 30\\n23\\n29\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        }
+    ],
+    "version": "3.0.10"
+}

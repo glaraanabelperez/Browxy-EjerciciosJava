@@ -1,0 +1,37 @@
+Ejercicio 24: La súper calculadora (con funciones)
+
+* Un astrofísico necesita una calculadora que:
+** Pida ingresar un primer numero
+** Pida ingresar una operacion (suma, resta, multiplicacion o division)
+** Pida ingresar un segundo numero
+** Informe el resultado de la operacion
+
+* Completar el programa de manera que funcione
+* Se encuentran programadas las funciones necesarias lo que hay que hacer es agregar una única línea en cada condicion:
+
+        if (operacion.equals("suma")) {
+            
+        } else if (operacion.equals("resta")) {
+            
+        } else  if (operacion.equals("multiplicacion")) {
+            
+        } else if (operacion.equals("division")) {
+            
+        }
+        
+Ejemplo de salida para la operacion "suma"
+
+Bienvenido a la super calculadora
+Ingresar el primer numero
+5
+Ingresar la operacion: suma, resta, multiplicacion o division
+suma
+Ingresar el segundo numero
+23
+El resultado de sumar los numeros 5.0 y 23.0 es 28.0
+
+
+* Notas
+ * Corré el test una vez para ver cual debe ser la salida esperada.
+ * La salida debe ser exactamente igual a lo que espera el test.
+ * Por simplicidad y para evitar posibles errores por ahora no usar acentos ni la letra ñ

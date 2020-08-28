@@ -1,0 +1,110 @@
+{
+    "slug": "/home/browxy/cs50_testcases",
+    "results": [
+        {
+            "name": "punto1_prueba1",
+            "description": "punto1_prueba1",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 1\\nA\\n5000\\nS\\nB\\n6000\\nN...",
+                "checking for output \"Examen DL2020 - Ingrese el punto a probar (1 a 4)\\nIngresar proyecto: A o B\\nIngresar sueldo mensual:\\nDesea ingresar otro empleado? S o N\\nIngresar proyecto: A o B\\nIngresar sueldo mensual:\\nDesea ingresar otro empleado? S o N\\nResultado:\\nCantidad empleados proyectos tipo A: 1\\nPromedio sueldos proyectos tipo A: 5000.0\\nCantidad empleados proyectos tipo B: 1\\nPromedio sueldos proyectos tipo B: 6000.0\"..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "punto1_prueba2",
+            "description": "punto1_prueba2",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 1\\nA\\n13000\\nS\\nB\\n14000\\nS\\nB\\n16000\\nN...",
+                "checking for output \"Examen DL2020 - Ingrese el punto a probar (1 a 4)\\nIngresar proyecto: A o B\\nIngresar sueldo mensual:\\nDesea ingresar otro empleado? S o N\\nIngresar proyecto: A o B\\nIngresar sueldo mensual:\\nDesea ingresar otro empleado? S o N\\nIngresar proyecto: A o B\\nIngresar sueldo mensual:\\nDesea ingresar otro empleado? S o N\\nResultado:\\nCantidad empleados proyectos tipo A: 1\\nPromedio sueldos proyectos tipo A: 13000.0\\nCantidad empleados proyectos tipo B: 2\\nPromedio sueldos proyectos tipo B: 15000.0\"..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "punto2_prueba1",
+            "description": "punto2_prueba1",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 2\\n2\\nA\\nC\\nB\\nC...",
+                "checking for output \"Examen DL2020 - Ingrese el punto a probar (1 a 4)\\nIngresar cantidad de productos\\nProducto: 1\\nIngresar marca (A o B)\\nIngresar color (C u O)\\nProducto: 2\\nIngresar marca (A o B)\\nIngresar color (C u O)\\nResultado:\\nA - clara: 1\\nA - oscura: 0\\nB - clara: 1\\nB - oscura: 0\\nclara: 2\\noscura: 0\"..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "punto2_prueba2",
+            "description": "punto2_prueba2",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 2\\n2\\nA\\nC\\nA\\nC...",
+                "checking for output \"Examen DL2020 - Ingrese el punto a probar (1 a 4)\\nIngresar cantidad de productos\\nProducto: 1\\nIngresar marca (A o B)\\nIngresar color (C u O)\\nProducto: 2\\nIngresar marca (A o B)\\nIngresar color (C u O)\\nResultado:\\nA - clara: 2\\nA - oscura: 0\\nB - clara: 0\\nB - oscura: 0\\nclara: 2\\noscura: 0\"..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "punto3_prueba1",
+            "description": "punto3_prueba1",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 3\\n10...",
+                "checking for output \"Examen DL2020 - Ingrese el punto a probar (1 a 4)\\nIngresar el numero maximo\\nResultado:\\n3\\n5\\n6\\n9\\n10\"..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "punto3_prueba2",
+            "description": "punto3_prueba2",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 3\\n15...",
+                "checking for output \"Examen DL2020 - Ingrese el punto a probar (1 a 4)\\nIngresar el numero maximo\\nResultado:\\n3\\n5\\n6\\n9\\n10\\n12\\n15\"..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "punto4_prueba1",
+            "description": "punto4_prueba1",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 4\\n2,4,6...",
+                "checking for output \"Examen DL2020 - Ingrese el punto a probar (1 a 4)\\nIngresar numeros separados por coma\\nResultado: 12\"..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "punto4_prueba2",
+            "description": "punto4_prueba2",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 4\\n1,2,3...",
+                "checking for output \"Examen DL2020 - Ingrese el punto a probar (1 a 4)\\nIngresar numeros separados por coma\\nResultado: 6\"..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        }
+    ],
+    "version": "3.0.10"
+}

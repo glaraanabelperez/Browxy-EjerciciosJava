@@ -1,0 +1,26 @@
+Ejercicio 25: Google Cavernícola
+
+* Hacer un programa que dada una dirección web y una palabra nos diga si encontro la palabra en dicha dirección web
+
+* Ya se encuentran programadas 2 funciones:
+
+* static boolean seEncuentraPalabraEnTexto(String texto, String palabra)
+** Esta función recibe un texto y una palabra y nos dice si la palabra se encuentra en el texto
+
+* static String obtenerPaginaWeb(String direccion)
+** Esta función recibe una direccion y nos devuelve el texto que tiene esa dirección web
+
+Ejemplo de salida del programa
+
+Bienvenido al buscador de textos en paginas webs!
+Ingresar direccion de la pagina web, ejemplo: https://www.clarin.com
+https://www.clarin.com
+Ingresar texto a buscar
+coronavirus
+Se encontro la palabra: coronavirus en: https://www.clarin.com
+
+
+* Notas
+ * Corré el test una vez para ver cual debe ser la salida esperada.
+ * La salida debe ser exactamente igual a lo que espera el test.
+ * Por simplicidad y para evitar posibles errores por ahora no usar acentos ni la letra ñ

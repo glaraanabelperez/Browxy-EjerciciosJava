@@ -1,0 +1,20 @@
+{
+    "slug": "/home/browxy/cs50_testcases",
+    "results": [
+        {
+            "name": "prueba_1",
+            "description": "prueba_1",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input Maria\\nF\\n25\\nS\\nS\\nPedro\\nM\\n20\\nN\\nS\\nJose\\nM\\n65\\nS\\nS\\nManuel\\nM\\n70\\nN\\nS\\nRafael\\nM\\n18\\nN\\nN...",
+                "checking for output \"Estadisticas Diarias:\\nIngresar nombre:\\nIngresar sexo (M o F)\\nIngresar edad:\\nInfectado? (S o N)\\nAgregar otra persona? (S o N)\\nIngresar nombre:\\nIngresar sexo (M o F)\\nIngresar edad:\\nInfectado? (S o N)\\nAgregar otra persona? (S o N)\\nIngresar nombre:\\nIngresar sexo (M o F)\\nIngresar edad:\\nInfectado? (S o N)\\nAgregar otra persona? (S o N)\\nIngresar nombre:\\nIngresar sexo (M o F)\\nIngresar edad:\\nInfectado? (S o N)\\nAgregar otra persona? (S o N)\\nIngresar nombre:\\nIngresar sexo (M o F)\\nIngresar edad:\\nInfectado? (S o N)\\nAgregar otra persona? (S o N)\\nCantidad total de personas que hicieron el test: 5\\nCantidad total de personas infectadas: 2\\nPromedio de hombres infectados: 25.0 %\\nPromedio de mujeres infectadas: 100.0 %\\nPromedio de mayores de 60 infectados: 50.0 %\\nPromedio de hombres mayores de 60 infectados: 50.0 %\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        }
+    ],
+    "version": "3.0.10"
+}

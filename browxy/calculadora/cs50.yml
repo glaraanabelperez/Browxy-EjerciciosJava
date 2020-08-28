@@ -1,0 +1,54 @@
+check50:
+  checks:
+    suma:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido a la super calculadora"
+          - "Ingresar el primer numero"
+          - "Ingresar la operacion: suma, resta, multiplicacion o division"
+          - "Ingresar el segundo numero"
+          - "El resultado de sumar los numeros 5.0 y 23.0 es 28.0"
+        stdin:
+          - 5
+          - "suma"
+          - 23
+        exit: 0
+    resta:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido a la super calculadora"
+          - "Ingresar el primer numero"
+          - "Ingresar la operacion: suma, resta, multiplicacion o division"
+          - "Ingresar el segundo numero"
+          - "El resultado de restar los numeros 10.0 y 8.0 es 2.0"
+        stdin:
+          - 10
+          - "resta"
+          - 8
+        exit: 0   
+    multiplicacion:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido a la super calculadora"
+          - "Ingresar el primer numero"
+          - "Ingresar la operacion: suma, resta, multiplicacion o division"
+          - "Ingresar el segundo numero"
+          - "El resultado de multiplicar los numeros 5.0 y 3.0 es 15.0"
+        stdin:
+          - 5
+          - "multiplicacion"
+          - 3
+        exit: 0
+    division:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido a la super calculadora"
+          - "Ingresar el primer numero"
+          - "Ingresar la operacion: suma, resta, multiplicacion o division"
+          - "Ingresar el segundo numero"
+          - "El resultado de dividir los numeros 3.0 y 2.0 es 1.5"
+        stdin:
+          - 3
+          - "division"
+          - 2
+        exit: 0   

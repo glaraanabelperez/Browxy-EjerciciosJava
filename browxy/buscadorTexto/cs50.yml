@@ -1,0 +1,25 @@
+check50:
+  checks:
+    buscarBrowxyEnBrowxy:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido al buscador de textos en paginas webs!"
+          - "Ingresar direccion de la pagina web, ejemplo: https://www.clarin.com"
+          - "Ingresar texto a buscar"
+          - "Se encontro la palabra: browxy en: https://www.browxy.com"
+        stdin:
+          - "https://www.browxy.com"
+          - "browxy"
+        exit: 0
+    buscarCamionEnBrowxy:
+      - run: ${runCommand}
+        stdout: 
+          - "Bienvenido al buscador de textos en paginas webs!"
+          - "Ingresar direccion de la pagina web, ejemplo: https://www.clarin.com"
+          - "Ingresar texto a buscar"
+          - "No se encontro la palabra: camion en: https://www.browxy.com"
+        stdin:
+          - "https://www.browxy.com"
+          - "camion"
+        exit: 0        
+     

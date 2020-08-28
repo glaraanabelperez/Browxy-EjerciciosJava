@@ -1,0 +1,9 @@
+Ejercicio 11: Conversor de numeros arábigos a romanos
+
+* Un matemático necesita un sistema en el que se ingrese un número del 1 al 10 y lo convierta en un número romano. 
+* El sistema debe indicar si el número no se encuentra entre 1 y 10 con un mensaje de error
+
+* Notas
+ * Corré el test una vez para ver cual debe ser la salida esperada.
+ * La salida debe ser exactamente igual a lo que espera el test.
+ * Por simplicidad y para evitar posibles errores por ahora no usar acentos ni la letra ñ

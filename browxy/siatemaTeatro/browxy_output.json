@@ -1,0 +1,48 @@
+{
+    "slug": "/home/browxy/cs50_testcases",
+    "results": [
+        {
+            "name": "comprarPosicion0_0",
+            "description": "comprarPosicion0_0",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 2\\n0\\n0\\n1\\n4...",
+                "checking for output \"Bienvenido al sistema de teatro\\nIngrese la operacion a realizar\\n1. Listar lugares\\n2. Comprar lugar\\n3. Calcular ganancia\\n4. Salir\\nIngrese la fila\\nIngrese la columna\\ncompra realizada\\nIngrese la operacion a realizar\\n1. Listar lugares\\n2. Comprar lugar\\n3. Calcular ganancia\\n4. Salir\\n  0 1 2 3 4\\n0 X - - - - \\n1 - - - - - \\n2 - - - - - \\nIngrese la operacion a realizar\\n1. Listar lugares\\n2. Comprar lugar\\n3. Calcular ganancia\\n4. Salir\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "comprarPosicionOcupada",
+            "description": "comprarPosicionOcupada",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 2\\n0\\n0\\n2\\n0\\n0\\n4...",
+                "checking for output \"Bienvenido al sistema de teatro\\nIngrese la operacion a realizar\\n1. Listar lugares\\n2. Comprar lugar\\n3. Calcular ganancia\\n4. Salir\\nIngrese la fila\\nIngrese la columna\\ncompra realizada\\nIngrese la operacion a realizar\\n1. Listar lugares\\n2. Comprar lugar\\n3. Calcular ganancia\\n4. Salir\\nIngrese la fila\\nIngrese la columna\\nlugar ocupado\\nIngrese la operacion a realizar\\n1. Listar lugares\\n2. Comprar lugar\\n3. Calcular ganancia\\n4. Salir\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        },
+        {
+            "name": "calcularCosto",
+            "description": "calcularCosto",
+            "passed": true,
+            "log": [
+                "running java  -cp /home/browxy/libraries/*:/home/browxy/target domain.HelloWorld null...",
+                "sending input 2\\n0\\n0\\n2\\n1\\n1\\n2\\n2\\n2\\n3\\n4...",
+                "checking for output \"Bienvenido al sistema de teatro\\nIngrese la operacion a realizar\\n1. Listar lugares\\n2. Comprar lugar\\n3. Calcular ganancia\\n4. Salir\\nIngrese la fila\\nIngrese la columna\\ncompra realizada\\nIngrese la operacion a realizar\\n1. Listar lugares\\n2. Comprar lugar\\n3. Calcular ganancia\\n4. Salir\\nIngrese la fila\\nIngrese la columna\\ncompra realizada\\nIngrese la operacion a realizar\\n1. Listar lugares\\n2. Comprar lugar\\n3. Calcular ganancia\\n4. Salir\\nIngrese la fila\\nIngrese la columna\\ncompra realizada\\nIngrese la operacion a realizar\\n1. Listar lugares\\n2. Comprar lugar\\n3. Calcular ganancia\\n4. Salir\\nLa ganancia actual es de: 90 pesos\\nIngrese la operacion a realizar\\n1. Listar lugares\\n2. Comprar lugar\\n3. Calcular ganancia\\n4. Salir\"...",
+                "checking that program exited with status 0..."
+            ],
+            "cause": null,
+            "data": {},
+            "dependency": null
+        }
+    ],
+    "version": "3.0.10"
+}

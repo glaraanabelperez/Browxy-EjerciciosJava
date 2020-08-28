@@ -1,0 +1,155 @@
+check50:
+  checks:
+    punto1_prueba1:
+      - run: ${runCommand}
+        stdout: 
+          - "Examen DL2020 - Ingrese el punto a probar (1 a 4)"
+          - "Ingresar proyecto: A o B"
+          - "Ingresar sueldo mensual:"
+          - "Desea ingresar otro empleado? S o N"
+          - "Ingresar proyecto: A o B"
+          - "Ingresar sueldo mensual:"
+          - "Desea ingresar otro empleado? S o N"
+          - "Resultado:"
+          - "Cantidad empleados proyectos tipo A: 1"
+          - "Promedio sueldos proyectos tipo A: 5000.0"
+          - "Cantidad empleados proyectos tipo B: 1"
+          - "Promedio sueldos proyectos tipo B: 6000.0"
+        stdin:
+          - "1"
+          - "A"
+          - "5000"
+          - "S"
+          - "B"
+          - "6000"
+          - "N"
+    punto1_prueba2:
+      - run: ${runCommand}
+        stdout: 
+          - "Examen DL2020 - Ingrese el punto a probar (1 a 4)"
+          - "Ingresar proyecto: A o B"
+          - "Ingresar sueldo mensual:"
+          - "Desea ingresar otro empleado? S o N"
+          - "Ingresar proyecto: A o B"
+          - "Ingresar sueldo mensual:"
+          - "Desea ingresar otro empleado? S o N"
+          - "Ingresar proyecto: A o B"
+          - "Ingresar sueldo mensual:"
+          - "Desea ingresar otro empleado? S o N"
+          - "Resultado:"
+          - "Cantidad empleados proyectos tipo A: 1"
+          - "Promedio sueldos proyectos tipo A: 13000.0"
+          - "Cantidad empleados proyectos tipo B: 2"
+          - "Promedio sueldos proyectos tipo B: 15000.0"
+        stdin:
+          - "1"
+          - "A"
+          - "13000"
+          - "S"
+          - "B"
+          - "14000"
+          - "S"
+          - "B"
+          - "16000"
+          - "N"
+    punto2_prueba1:
+      - run: ${runCommand}
+        stdout: 
+          - "Examen DL2020 - Ingrese el punto a probar (1 a 4)"
+          - "Ingresar cantidad de productos"
+          - "Producto: 1"
+          - "Ingresar marca (A o B)"
+          - "Ingresar color (C u O)"
+          - "Producto: 2"
+          - "Ingresar marca (A o B)"
+          - "Ingresar color (C u O)"
+          - "Resultado:"
+          - "A - clara: 1"
+          - "A - oscura: 0"
+          - "B - clara: 1" 
+          - "B - oscura: 0"
+          - "clara: 2"
+          - "oscura: 0" 
+        stdin:
+          - "2"
+          - "2"
+          - "A"
+          - "C"
+          - "B"
+          - "C"
+    punto2_prueba2:
+      - run: ${runCommand}
+        stdout: 
+          - "Examen DL2020 - Ingrese el punto a probar (1 a 4)"
+          - "Ingresar cantidad de productos"
+          - "Producto: 1"
+          - "Ingresar marca (A o B)"
+          - "Ingresar color (C u O)"
+          - "Producto: 2"
+          - "Ingresar marca (A o B)"
+          - "Ingresar color (C u O)"
+          - "Resultado:"
+          - "A - clara: 2"
+          - "A - oscura: 0"
+          - "B - clara: 0" 
+          - "B - oscura: 0"
+          - "clara: 2"
+          - "oscura: 0" 
+        stdin:
+          - "2"
+          - "2"
+          - "A"
+          - "C"
+          - "A"
+          - "C"          
+    punto3_prueba1:
+      - run: ${runCommand}
+        stdout: 
+          - "Examen DL2020 - Ingrese el punto a probar (1 a 4)"
+          - "Ingresar el numero maximo"
+          - "Resultado:"
+          - "3"
+          - "5"
+          - "6"
+          - "9"
+          - "10"
+        stdin:
+          - "3"
+          - "10"
+    punto3_prueba2:
+      - run: ${runCommand}
+        stdout: 
+          - "Examen DL2020 - Ingrese el punto a probar (1 a 4)"
+          - "Ingresar el numero maximo"
+          - "Resultado:"
+          - "3"
+          - "5"
+          - "6"
+          - "9"
+          - "10"
+          - "12"
+          - "15"
+        stdin:
+          - "3"
+          - "15"          
+    punto4_prueba1:
+      - run: ${runCommand}
+        stdout: 
+          - "Examen DL2020 - Ingrese el punto a probar (1 a 4)"
+          - "Ingresar numeros separados por coma"
+          - "Resultado: 12"
+        stdin:
+          - "4"    
+          - "2,4,6"
+    punto4_prueba2:
+      - run: ${runCommand}
+        stdout: 
+          - "Examen DL2020 - Ingrese el punto a probar (1 a 4)"
+          - "Ingresar numeros separados por coma"
+          - "Resultado: 6"
+        stdin:
+          - "4"    
+          - "1,2,3"           
+              
+
+          
